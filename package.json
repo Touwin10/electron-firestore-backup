@@ -1,12 +1,12 @@
 {
   "name": "electron-firestore-backup",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Learn how to backup your Firestore Collection data locally using Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "",
+  "repository": "https://github.com/Touwin10/electron-firestore-backup.git",
   "keywords": [
     "Electron",
     "quick",
@@ -14,7 +14,10 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": {
+    "name": "Touwin10",
+    "url": "https://touwin10.com/"
+  },
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.0.2"
