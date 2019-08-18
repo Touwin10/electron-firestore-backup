@@ -1,0 +1,148 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t1 {
+    font-size: 25px;
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+
+}
+
+.container .import,
+.export {
+    margin: auto;
+}
+
+.container .title {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Import styles */
+.import {
+    min-height: 450px;
+}
+
+.import .msg {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.import input {
+    width: 80%;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.import .btn-import {
+    background-color: royalblue;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+}
+
+.import .btn-import:hover {
+    opacity: .9;
+}
+
+.import .show {
+    font-size: 15px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.import .pre-import {
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+
+.import .btn-save-file {
+    background-color: green;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+}
+
+.import .btn-save-file:hover {
+    opacity: .9;
+}
+
+
+/* Export Styles */
+
+.export {
+    min-width: 30%;
+    min-height: 450px;
+}
+
+.export .upload-file {
+    font-size: 14px;
+    background-color: gray;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+}
+
+.export .upload-file:hover {
+    background-color: lightgray;
+}
+
+.export .file-input {
+    display: none;
+}
+
+.export .pre-export {
+    max-width: 400px;
+    height: 240px;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+
+.export .btn-upload-firestore {
+    background-color: steelblue;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+}
+
+.export .btn-upload-firestore:hover {
+    opacity: .9;
+}
+
+.export .form .input-export {
+    width: 80%;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    margin-bottom: 10px;
+
+}

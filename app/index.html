@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Firestore Backup</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="t1">
+    Firestore Backup
+  </div>
+  <div class="container">
+
+    <div class="import">
+      <div class="title">
+        Import Collection Data from Firestore
+      </div>
+      <div class="import-input">
+        <div class="msg">
+          Add a collection or subcollection path
+        </div>
+        <div class="form">
+          <input id="input-import" type="text" placeholder="Example:collection/document/collection">
+          <button id="btn-import" class="btn-import">
+            Import
+          </button>
+        </div>
+      </div>
+
+      <div class="show">Imported data:</div>
+      <pre id="pre-import" class="pre-import"></pre>
+      <button id="btn-save-file" class="btn-save-file">
+        Save to file
+      </button>
+    </div>
+
+    <div class="export">
+      <div class="title">
+        Export Data to Firestore
+      </div>
+
+      <label class="upload-file">
+        Get Json file
+        <input id="file-input" type="file" class="file-input">
+      </label>
+      <pre id="pre-export" class="pre-export"></pre>
+      <div class="form">
+        <input id="input-export" class="input-export" type="text" placeholder="Example:collection/document/collection">
+        <button id="btn-upload-firestore" class="btn-upload-firestore">
+          Upload to Firestore
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
